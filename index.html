@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web App</title>
+<!--Stylesheet-->
+<link rel="stylesheet" type="text/css" href="webapp.css">
+<!--JavaScript-->
+<script type="text/javascript" src="webapp.js"></script>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<center><h1>Meme Guesser</h1></center>
+<center><h2>By: Huevos Rancheros
+</h2>
+</center>
+
+
+<audio autoplay>
+<source src="sounds/Thomas.mp3" type="audio/mpeg"></source>
+<source src="sounds/mii.mp3" type="audio/mpeg"></source>
+<source src="sounds/epic-sax.mp3" type="audio/mpeg"></source>
+</audio>
+
+ 
+
+
+
+	
+	 
+
+
+<div id="choices">
+			<button id="a"></button>
+			<button id="b"></button>
+			<button id="c"></button>
+			<button id="d"></button>
+			<h2 id="choices.title">Choices:</h2>
+</div>
+
+				 
+<div id="difficulty">
+	<button onclick="changeDifficulty(1)" id="Easy">Easy</button>
+			<button onclick="changeDifficulty(2)" id="Medium">Medium</button>
+			<button onclick="changeDifficulty(3)" id="Hard">Hard</button>
+			<button onclick="changeDifficulty(4)" id="Extra">Extra Spicy</button>
+			<h2 id="dif.title">Difficulty:</h2>
+</div>
+				
+				
+				
+				
+<div id="highscore" >
+	<h2>Personal High-Score</h2>
+	<span id="highscoreboard">
+</div>
+
+<div id="scoretilebox">
+
+</div>
+
+<div id="scoreboard">
+<h2 id="scorelabel">score:</h2>
+<input id="score" value="0">
+</div>
+
+</body>
+</html>

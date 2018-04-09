@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    color: #001EFF;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-color: rgba(0,0,0,1.00);
+}
+
+ 
+#d{
+	position: absolute;
+	top: 80%;
+	text-align: center; 
+	left:0%; 
+	width: 200px;
+}
+
+#c { 
+position: absolute;
+	top: 60%;
+	text-align: center; 
+	left:0%; 
+	width: 200px;
+}
+
+#b {
+position: absolute;
+	top: 40%;
+	text-align: center; 
+	left:0%; 
+	width: 200px;	
+}
+
+#a {
+position: absolute;
+	top: 20%;
+	text-align: center; 
+	left:0%; 
+	width: 200px;	
+}
+
+#highscore {
+	display:none;
+	top: 75%;
+	text-align: center;
+	margin: 20px auto;
+	background-color: rgba(31,40,153,0.75);
+	border: solid;
+	border-radius: 30px;	
+	width: 300px;
+	clear: both;
+}
+
+#choices {
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	left: 5%;
+	width: 200px;
+	height: 400px;
+	background-color: rgba(31,40,153,0.75);
+	border: double;
+	border-radius: 17px;
+}
+
+#difficulty {
+	position: absolute;
+	top: 30%; 
+	text-align: center; 
+	right:5%; 
+	width: 200px;
+	height:400px;
+	background-color: rgba(31,40,153,0.50);
+	border: double;
+	border-radius: 17px;
+	
+}
+
+
+#Extra {
+	position: absolute;
+	top: 80%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;
+}
+
+#Hard { 
+	position: absolute;
+	top: 60%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;
+}
+
+#Medium {
+	position: absolute;
+	top: 40%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;	
+}
+
+#Easy {
+	
+position: absolute;
+	top: 20%;
+	text-align: center; 
+	left: 0%; 
+	width: 200px;	
+}
+
+#score {
+	position: absolute;
+	top: 5%;
+	text-align: center;
+	font-size:36px;
+	right: 5%; 
+	width: 200px;	
+	height:100px;
+	background-color: #18229B;
+	border: #005CBE, thick;
+	border-radius: 40px;
+}
+
+#scoretilebox {
+	position:absolute;
+	right: 5%;
+	top: 0%;
+}
+
+#scorelabel{
+position:absolute;
+top:0%;
+right: 11%;	
+}
+
+
